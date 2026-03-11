@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* ROOT ELEMENTS */
+
+:root {
+    /* --primary-color: #595a5b; */
+    /* --secondary-color: #403737; */
+    /* --territiary-color: #231f20; */
+    /* --other-color: #fff; */
+    /* --lt-bg-color: #ebe6e4; */
+    /* --heading-color: #333; */
+    /* --btn-color: #bd904a; */
+    /* --btn-hover: #222325; */
+    /* --sec-line: #656565; */
+
+    --primary-color: #bd904a;
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-font: "Cardo", serif;
+    --secondary-font: "Cardo", serif;
+    /* 
+    --heading-font: "Cardo", serif;
+    --other-font: "Cardo", serif; */
+}
+
+body{
+    background-color: var(--white-color);
+}
+
+
+.info-grid{
+    
+
+}
