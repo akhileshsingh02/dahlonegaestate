@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -27,12 +27,21 @@
     --other-font: "Cardo", serif; */
 }
 
-body{
+body {
     background-color: var(--white-color);
 }
 
 
-.info-grid{
-    
+.info-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    background-color: red;
+    grid-gap: 10px;
+}
 
+.img-item {
+    background: antiquewhite;
+    grid-row-start: 1;
+    grid-row-end: 5;
 }
